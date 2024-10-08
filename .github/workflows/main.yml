@@ -12,6 +12,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: my-test
-       run: npm run ng test
+       run: npm install
+            npm run ng test
        
  
